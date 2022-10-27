@@ -7,7 +7,7 @@ public class Lion {
     boolean hasMane;
     Feline feline;
 
-<span class="fc" id="L10">    public Lion(String sex, Feline feline) throws Exception { //MOK</span>
+<span class="fc" id="L10">    public Lion(String sex, Feline feline) throws Exception {</span>
 <span class="fc bfc" id="L11" title="All 2 branches covered.">        if (&quot;Самец&quot;.equals(sex)) {</span>
 <span class="fc" id="L12">            hasMane = true;</span>
 <span class="fc bfc" id="L13" title="All 2 branches covered.">        } else if (&quot;Самка&quot;.equals(sex)) {</span>
@@ -20,14 +20,14 @@ public class Lion {
 
     public int getKittens() {
 <span class="fc" id="L22">        return feline.getKittens();</span>
-    } //MOK
+    }
 
     public boolean doesHaveMane() {
 <span class="fc" id="L26">        return hasMane;</span>
     }
 
     public List&lt;String&gt; getFood() throws Exception {
-<span class="fc" id="L30">        return feline.getFood(&quot;Хищник&quot;); //MOK</span>
+<span class="fc" id="L30">        return feline.getFood(&quot;Хищник&quot;);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

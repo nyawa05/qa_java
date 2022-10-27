@@ -1,4 +1,4 @@
-package TestsFeline;
+package testsFeline;
 
 import com.example.Feline;
 import org.junit.Test;
@@ -28,6 +28,6 @@ public class FelineGetKittensCountTest {
     @Test
     public void felineGetKittens () {
         Feline feline = new Feline();
-        assertEquals("Значение котят не совпадает с заданным значением", feline.getKittens(kittensCount), kittensCount);
+        assertEquals("Значение котят не совпадает с заданным значением", kittensCount, feline.getKittens(kittensCount));
     }
 }
