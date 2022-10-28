@@ -1,4 +1,4 @@
-package testsFeline;
+package testsfeline;
 
 import com.example.Feline;
 import org.junit.Test;

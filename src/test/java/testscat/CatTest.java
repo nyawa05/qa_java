@@ -1,7 +1,8 @@
-package testsCat;
+package testscat;
 
 import com.example.Cat;
 import com.example.Feline;
+import com.example.Predator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -15,12 +16,13 @@ public class CatTest {
 
     @Mock
     Feline feline;
+    Predator predator;
 
     @Test
     public void catGetFood() throws Exception {
         Cat cat = new Cat(feline);
         List<String> listOfFood = List.of("Животные", "Птицы", "Рыба");
-        Mockito.when(cat.getFood()).thenReturn(listOfFood);
+        Mockito.when(feline.eatMeat()).thenReturn(listOfFood);
         assertEquals("Возвращается неверный список еды хищников", listOfFood, cat.getFood());
     }
 

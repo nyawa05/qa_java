@@ -1,4 +1,4 @@
-package testsAnimal;
+package testsanimal;
 
 import com.example.Animal;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package testsAlexTheLiom;
+package testsalextheliom;
 
 import com.example.AlexTheLion;
 import com.example.Feline;
